@@ -24,9 +24,9 @@ services:
   mailtrain:
     image: mailtrain/mailtrain:latest
     ports:
-    - "3000:3000"
     - "3003:3003"
-    - "3004:3004"
+    - "3011:3011"
+    - "3012:3012"
     volumes:
     - mailtrain-files:/app/server/files
 
